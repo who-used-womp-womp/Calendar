@@ -1,0 +1,36 @@
+html, body{
+    background-color: rgb(28,28,28);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.choice{
+    color: rgb(223,215,175);
+    font-family: "Anurati-Regular";
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 10px;
+    display: block;
+    margin-bottom:5%;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 90%;
+    transition: 0.2s ease;
+    margin-bottom:25%;
+    padding:0%;
+    
+}
+
+img:hover{
+    transform: scale(0.8);
+    transition: 0.05s ease;
+}
+
+.main{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
+    padding: 0%;
+    margin: 0%;
+}
